@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.gen/sources_1/ip/ila_0_2/sim/ila_0.v,1758187760,verilog,,C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/d_ff.v,,ila_0,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/d_ff.v,1758183003,verilog,,C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/d_latch.v,,d_ff,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/d_latch.v,1758190229,verilog,,C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/top_d_latch_ff.v,,d_latch,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/tb_d_ff.v,1758182478,verilog,,,,tb_d_ff,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/tb_d_latch.v,1758177808,verilog,,,,tb_d_latch,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/tb_top_d_latch_ff.v,1758191677,verilog,,,,tb_top_d_latch_ff,,,,,,,,
+C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/top_d_latch_ff.v,1758191612,verilog,,C:/Users/50/Desktop/vLabs/d_latch_ff/d_latch_ff.srcs/sources_1/new/tb_top_d_latch_ff.v,,top_d_latch_ff,,,,,,,,

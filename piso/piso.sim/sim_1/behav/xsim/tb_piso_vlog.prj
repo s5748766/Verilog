@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../piso.srcs/sources_1/new/mux2to1.v" \
+"../../../../piso.srcs/sources_1/new/piso.v" \
+"../../../../piso.srcs/sources_1/new/piso_d_ff.v" \
+"../../../../piso.srcs/sources_1/new/tb_piso.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

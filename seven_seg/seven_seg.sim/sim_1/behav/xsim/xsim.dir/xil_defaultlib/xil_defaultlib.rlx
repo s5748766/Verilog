@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1761199155,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/bcd_cnt.v,,clk_wiz_0,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1761199155,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/bcd_cnt.v,1761198620,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/counter_4digit.v,,bcd_cnt,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/counter_4digit.v,1761198993,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/drv_fnd4.v,,counter_4digit,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/drv_fnd4.v,1761198323,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/freq_div_fnd.v,,drv_fnd4,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/freq_div_fnd.v,1761199109,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/top_freq_div_fnd.v,,freq_div_fnd,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/tb_counter_4digit.v,1761199597,verilog,,,,tb_counter_4digit,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/top_freq_div_fnd.v,1761199120,verilog,,C:/Users/50/Desktop/vLabs/seven_seg/seven_seg.srcs/sources_1/new/tb_counter_4digit.v,,top_freq_div_fnd,,,../../../../seven_seg.gen/sources_1/ip/clk_wiz_0,,,,,

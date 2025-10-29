@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/50/Desktop/vLabs/4bit_bin_up_counter/4bit_bin_up_counter.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/50/Desktop/vLabs/4bit_bin_up_counter/4bit_bin_up_counter.srcs/sources_1/new/jk_ff.v,1761131205,verilog,,C:/Users/50/Desktop/vLabs/4bit_bin_up_counter/4bit_bin_up_counter.srcs/sources_1/new/ripple_upcnt.v,,jk_ff,,,../../../../4bit_bin_up_counter.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/4bit_bin_up_counter/4bit_bin_up_counter.srcs/sources_1/new/ripple_upcnt.v,1761131594,verilog,,C:/Users/50/Desktop/vLabs/4bit_bin_up_counter/4bit_bin_up_counter.srcs/sources_1/new/tb_ripple_upcnt.v,,ripple_upcnt,,,../../../../4bit_bin_up_counter.gen/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/50/Desktop/vLabs/4bit_bin_up_counter/4bit_bin_up_counter.srcs/sources_1/new/tb_ripple_upcnt.v,1761131658,verilog,,,,tb_ripple_upcnt,,,../../../../4bit_bin_up_counter.gen/sources_1/ip/clk_wiz_0,,,,,

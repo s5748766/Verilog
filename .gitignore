@@ -1,0 +1,26 @@
+# Vivado auto-generated folders
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+#.sim/   # 시뮬 폴더를 Git에 올리고 싶으면 이 줄은 주석 처리
+.Xil/
+
+# Vivado temporary files
+*.jou
+*.log
+*.str
+*.html
+*.xml
+*.rpt
+
+# Bitstream / debug artifacts
+*.bit
+*.bin
+*.mmi
+*.wdb
+*.pb
+
+# SDK/Vitis leftovers
+*.sdk/
+.vscode/

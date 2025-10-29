@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../incoder_decoder.gen/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../incoder_decoder.srcs/sources_1/new/decoder.v" \
+"../../../../incoder_decoder.srcs/sources_1/new/enc_dec_top.v" \
+"../../../../incoder_decoder.srcs/sources_1/new/encoder.v" \
+"../../../../incoder_decoder.srcs/sources_1/new/tb_enc_dec_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

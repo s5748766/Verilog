@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"alu_bd": {
+			"proto_instances": {
+			}
+		}
+	}
+}

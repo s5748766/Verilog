@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-190,-59",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port port-id_locked -pg 1 -lvl 4 -x 840 -y 310 -defaultsOSRD
+preplace port port-id_vsync -pg 1 -lvl 4 -x 840 -y 110 -defaultsOSRD
+preplace port port-id_hsync -pg 1 -lvl 4 -x 840 -y 90 -defaultsOSRD
+preplace portBus vga_r -pg 1 -lvl 4 -x 840 -y 190 -defaultsOSRD
+preplace portBus vga_g -pg 1 -lvl 4 -x 840 -y 210 -defaultsOSRD
+preplace portBus vga_b -pg 1 -lvl 4 -x 840 -y 230 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 430 -y 300 -defaultsOSRD
+preplace inst reset_inv_0 -pg 1 -lvl 1 -x 170 -y 250 -defaultsOSRD
+preplace inst vga_controller_0 -pg 1 -lvl 2 -x 430 -y 120 -defaultsOSRD
+preplace inst pixel_gen_0 -pg 1 -lvl 3 -x 700 -y 210 -defaultsOSRD
+preplace netloc reset_1 1 0 2 20 130 NJ
+preplace netloc reset_inv_0_Res 1 1 1 320J 250n
+preplace netloc sys_clock_1 1 0 2 NJ 310 NJ
+preplace netloc clk_wiz_0_locked 1 2 2 NJ 310 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 2 320 10 560
+preplace netloc vga_controller_0_x 1 2 1 550 150n
+preplace netloc vga_controller_0_y 1 2 1 540 170n
+preplace netloc vga_controller_0_p_tick 1 2 1 570 130n
+preplace netloc vga_controller_0_video_on 1 2 1 580 70n
+preplace netloc vga_controller_0_hsync 1 2 2 NJ 90 NJ
+preplace netloc vga_controller_0_vsync 1 2 2 NJ 110 NJ
+preplace netloc pixel_gen_0_vga_r 1 3 1 NJ 190
+preplace netloc pixel_gen_0_vga_g 1 3 1 NJ 210
+preplace netloc pixel_gen_0_vga_b 1 3 1 NJ 230
+levelinfo -pg 1 0 170 430 700 840
+pagesize -pg 1 -db -bbox -sgen -120 0 960 370
+"
+}
+{
+   "da_board_cnt":"2"
+}

@@ -1,0 +1,78 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../reg_file.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {
+      "regfile_8x8_0": ""
+    },
+    "components": {
+      "regfile_8x8_0": {
+        "vlnv": "xilinx.com:module_ref:regfile_8x8:1.0",
+        "xci_name": "design_1_regfile_8x8_0_1",
+        "xci_path": "ip\\design_1_regfile_8x8_0_1\\design_1_regfile_8x8_0_1.xci",
+        "inst_hier_path": "regfile_8x8_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "regfile_8x8",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst_n": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "ra1": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "ra2": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "rd1": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "rd2": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "wa": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "wd": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "we": {
+            "direction": "I"
+          }
+        }
+      }
+    }
+  }
+}

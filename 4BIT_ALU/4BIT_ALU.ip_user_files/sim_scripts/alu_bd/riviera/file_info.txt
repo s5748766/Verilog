@@ -1,0 +1,3 @@
+alu_bd_ALU_4bit_74181_0_0.v,verilog,xil_defaultlib,../../../bd/alu_bd/ip/alu_bd_ALU_4bit_74181_0_0/sim/alu_bd_ALU_4bit_74181_0_0.v,
+alu_bd.v,verilog,xil_defaultlib,../../../bd/alu_bd/sim/alu_bd.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

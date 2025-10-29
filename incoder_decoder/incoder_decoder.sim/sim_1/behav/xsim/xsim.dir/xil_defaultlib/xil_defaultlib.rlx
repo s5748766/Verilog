@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.gen/sources_1/ip/ila_0/sim/ila_0.v,1758094651,verilog,,C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/decoder.v,,ila_0,,,,,,,,
+C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/decoder.v,1758090621,verilog,,C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/enc_dec_top.v,,decoder,,,,,,,,
+C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/enc_dec_top.v,1758103416,verilog,,C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/encoder.v,,enc_dec_top,,,,,,,,
+C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/encoder.v,1758092852,verilog,,C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/tb_enc_dec_top.v,,encoder,,,,,,,,
+C:/Users/50/Desktop/vLabs/incoder_decoder/incoder_decoder.srcs/sources_1/new/tb_enc_dec_top.v,1758094019,verilog,,,,tb_enc_dec,,,,,,,,

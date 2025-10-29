@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Jul 26 14:42:12 2025" VIVADOVERSION="2022.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.1" DEVICE="7z020" NAME="alu_bd" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="S" SIGIS="undef" SIGNAME="External_Ports_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="S"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="M" SIGIS="undef" SIGNAME="External_Ports_M">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="M"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="External_Ports_Cn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="Cn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="3" NAME="F" RIGHT="0" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_F">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="F"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="P" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_P">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="P"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="G" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_G">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="G"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Cn_out" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_Cn_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="Cn_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A_eq_B" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_A_eq_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_4bit_74181_0" PORT="A_eq_B"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ALU_4bit_74181_0" HWVERSION="1.0" INSTANCE="ALU_4bit_74181_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ALU_4bit_74181" VLNV="xilinx.com:module_ref:ALU_4bit_74181:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="alu_bd_ALU_4bit_74181_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M" SIGIS="undef" SIGNAME="External_Ports_M">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="M"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Cn" SIGIS="undef" SIGNAME="External_Ports_Cn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Cn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="F" RIGHT="0" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_F">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="P" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_P">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="P"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="G" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_G">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="G"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Cn_out" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_Cn_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Cn_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="A_eq_B" SIGIS="undef" SIGNAME="ALU_4bit_74181_0_A_eq_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A_eq_B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

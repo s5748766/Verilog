@@ -1,0 +1,241 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD853DFB7D853DFB7",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../4bit_bin_up_counter.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {
+      "jk_ff_0": "",
+      "jk_ff_1": "",
+      "jk_ff_2": "",
+      "jk_ff_3": ""
+    },
+    "ports": {
+      "iCLK": {
+        "direction": "I"
+      },
+      "iRESETn": {
+        "direction": "I"
+      },
+      "iPRESETn": {
+        "direction": "I"
+      },
+      "oQ_0": {
+        "direction": "O"
+      },
+      "oQ_1": {
+        "direction": "O"
+      },
+      "oQ_3": {
+        "direction": "O"
+      },
+      "oQ_2": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "jk_ff_0": {
+        "vlnv": "xilinx.com:module_ref:jk_ff:1.0",
+        "xci_name": "design_1_jk_ff_0_0",
+        "xci_path": "ip\\design_1_jk_ff_0_0\\design_1_jk_ff_0_0.xci",
+        "inst_hier_path": "jk_ff_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "jk_ff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iCLK": {
+            "direction": "I"
+          },
+          "iCLEARn": {
+            "direction": "I"
+          },
+          "iPRESETn": {
+            "direction": "I"
+          },
+          "iJ": {
+            "direction": "I"
+          },
+          "iK": {
+            "direction": "I"
+          },
+          "oQ": {
+            "direction": "O"
+          },
+          "oQn": {
+            "direction": "O"
+          }
+        }
+      },
+      "jk_ff_1": {
+        "vlnv": "xilinx.com:module_ref:jk_ff:1.0",
+        "xci_name": "design_1_jk_ff_1_0",
+        "xci_path": "ip\\design_1_jk_ff_1_0\\design_1_jk_ff_1_0.xci",
+        "inst_hier_path": "jk_ff_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "jk_ff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iCLK": {
+            "direction": "I"
+          },
+          "iCLEARn": {
+            "direction": "I"
+          },
+          "iPRESETn": {
+            "direction": "I"
+          },
+          "iJ": {
+            "direction": "I"
+          },
+          "iK": {
+            "direction": "I"
+          },
+          "oQ": {
+            "direction": "O"
+          },
+          "oQn": {
+            "direction": "O"
+          }
+        }
+      },
+      "jk_ff_2": {
+        "vlnv": "xilinx.com:module_ref:jk_ff:1.0",
+        "xci_name": "design_1_jk_ff_2_0",
+        "xci_path": "ip\\design_1_jk_ff_2_0\\design_1_jk_ff_2_0.xci",
+        "inst_hier_path": "jk_ff_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "jk_ff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iCLK": {
+            "direction": "I"
+          },
+          "iCLEARn": {
+            "direction": "I"
+          },
+          "iPRESETn": {
+            "direction": "I"
+          },
+          "iJ": {
+            "direction": "I"
+          },
+          "iK": {
+            "direction": "I"
+          },
+          "oQ": {
+            "direction": "O"
+          },
+          "oQn": {
+            "direction": "O"
+          }
+        }
+      },
+      "jk_ff_3": {
+        "vlnv": "xilinx.com:module_ref:jk_ff:1.0",
+        "xci_name": "design_1_jk_ff_3_0",
+        "xci_path": "ip\\design_1_jk_ff_3_0\\design_1_jk_ff_3_0.xci",
+        "inst_hier_path": "jk_ff_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "jk_ff",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "iCLK": {
+            "direction": "I"
+          },
+          "iCLEARn": {
+            "direction": "I"
+          },
+          "iPRESETn": {
+            "direction": "I"
+          },
+          "iJ": {
+            "direction": "I"
+          },
+          "iK": {
+            "direction": "I"
+          },
+          "oQ": {
+            "direction": "O"
+          },
+          "oQn": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "iCLK_1": {
+        "ports": [
+          "iCLK",
+          "jk_ff_0/iCLK"
+        ]
+      },
+      "iPRESETn_1": {
+        "ports": [
+          "iPRESETn",
+          "jk_ff_0/iPRESETn",
+          "jk_ff_0/iJ",
+          "jk_ff_0/iK",
+          "jk_ff_1/iJ",
+          "jk_ff_1/iK",
+          "jk_ff_2/iJ",
+          "jk_ff_2/iK",
+          "jk_ff_3/iJ",
+          "jk_ff_3/iK",
+          "jk_ff_2/iPRESETn",
+          "jk_ff_3/iPRESETn",
+          "jk_ff_1/iPRESETn"
+        ]
+      },
+      "iRESETn_1": {
+        "ports": [
+          "iRESETn",
+          "jk_ff_0/iCLEARn",
+          "jk_ff_1/iCLEARn",
+          "jk_ff_2/iCLEARn",
+          "jk_ff_3/iCLEARn"
+        ]
+      },
+      "jk_ff_0_oQn": {
+        "ports": [
+          "jk_ff_0/oQn",
+          "jk_ff_1/iCLK",
+          "oQ_0"
+        ]
+      },
+      "jk_ff_1_oQn": {
+        "ports": [
+          "jk_ff_1/oQn",
+          "jk_ff_2/iCLK",
+          "oQ_1"
+        ]
+      },
+      "jk_ff_2_oQn": {
+        "ports": [
+          "jk_ff_2/oQn",
+          "jk_ff_3/iCLK",
+          "oQ_2"
+        ]
+      },
+      "jk_ff_3_oQn": {
+        "ports": [
+          "jk_ff_3/oQn",
+          "oQ_3"
+        ]
+      }
+    }
+  }
+}

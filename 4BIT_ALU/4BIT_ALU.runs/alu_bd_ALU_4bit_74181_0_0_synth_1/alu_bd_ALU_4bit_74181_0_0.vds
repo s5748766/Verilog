@@ -1,0 +1,204 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Jul 26 14:42:19 2025
+# Process ID: 5900
+# Current directory: C:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.runs/alu_bd_ALU_4bit_74181_0_0_synth_1
+# Command line: vivado.exe -log alu_bd_ALU_4bit_74181_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_bd_ALU_4bit_74181_0_0.tcl
+# Log file: C:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.runs/alu_bd_ALU_4bit_74181_0_0_synth_1/alu_bd_ALU_4bit_74181_0_0.vds
+# Journal file: C:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.runs/alu_bd_ALU_4bit_74181_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-NOFCRRC, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16476 MB
+#-----------------------------------------------------------
+source alu_bd_ALU_4bit_74181_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: alu_bd_ALU_4bit_74181_0_0
+Command: synth_design -top alu_bd_ALU_4bit_74181_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3740
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 828.395 ; gain = 410.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'alu_bd_ALU_4bit_74181_0_0' [c:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.gen/sources_1/bd/alu_bd/ip/alu_bd_ALU_4bit_74181_0_0/synth/alu_bd_ALU_4bit_74181_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'ALU_4bit_74181' [C:/Users/50/Desktop/ALU_74181-main/01_ALU_74181/ALU_4bit.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/50/Desktop/ALU_74181-main/01_ALU_74181/ALU_4bit.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/50/Desktop/ALU_74181-main/01_ALU_74181/ALU_4bit.v:45]
+INFO: [Synth 8-226] default block is never used [C:/Users/50/Desktop/ALU_74181-main/01_ALU_74181/ALU_4bit.v:70]
+INFO: [Synth 8-226] default block is never used [C:/Users/50/Desktop/ALU_74181-main/01_ALU_74181/ALU_4bit.v:92]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_4bit_74181' (0#1) [C:/Users/50/Desktop/ALU_74181-main/01_ALU_74181/ALU_4bit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu_bd_ALU_4bit_74181_0_0' (0#1) [c:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.gen/sources_1/bd/alu_bd/ip/alu_bd_ALU_4bit_74181_0_0/synth/alu_bd_ALU_4bit_74181_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 918.500 ; gain = 500.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 918.500 ; gain = 500.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 918.500 ; gain = 500.227
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 918.500 ; gain = 500.227
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    5 Bit       Adders := 10    
+	   3 Input    5 Bit       Adders := 2     
++---XORs : 
+	   2 Input      5 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    5 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |    11|
+|2     |LUT3  |     2|
+|3     |LUT4  |    14|
+|4     |LUT5  |    20|
+|5     |LUT6  |    52|
+|6     |MUXF7 |    18|
+|7     |MUXF8 |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   121|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1135.082 ; gain = 716.809
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1145.621 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1244.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 43af55bc
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1244.246 ; gain = 830.934
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.runs/alu_bd_ALU_4bit_74181_0_0_synth_1/alu_bd_ALU_4bit_74181_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1580.559 ; gain = 336.312
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP alu_bd_ALU_4bit_74181_0_0, cache-ID = 55a974ea3e740553
+INFO: [Common 17-1381] The checkpoint 'C:/Users/50/Desktop/vLabs/4BIT_ALU/4BIT_ALU.runs/alu_bd_ALU_4bit_74181_0_0_synth_1/alu_bd_ALU_4bit_74181_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file alu_bd_ALU_4bit_74181_0_0_utilization_synth.rpt -pb alu_bd_ALU_4bit_74181_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 26 14:42:51 2025...

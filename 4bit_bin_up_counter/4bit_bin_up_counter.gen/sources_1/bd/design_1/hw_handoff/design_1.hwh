@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 24 10:21:30 2025" VIVADOVERSION="2022.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="design_1" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="iCLK" SIGIS="undef" SIGNAME="External_Ports_iCLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_0" PORT="iCLK"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="iRESETn" SIGIS="undef" SIGNAME="External_Ports_iRESETn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_0" PORT="iCLEARn"/>
+        <CONNECTION INSTANCE="jk_ff_1" PORT="iCLEARn"/>
+        <CONNECTION INSTANCE="jk_ff_2" PORT="iCLEARn"/>
+        <CONNECTION INSTANCE="jk_ff_3" PORT="iCLEARn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="iPRESETn" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_0" PORT="iPRESETn"/>
+        <CONNECTION INSTANCE="jk_ff_0" PORT="iJ"/>
+        <CONNECTION INSTANCE="jk_ff_0" PORT="iK"/>
+        <CONNECTION INSTANCE="jk_ff_1" PORT="iJ"/>
+        <CONNECTION INSTANCE="jk_ff_1" PORT="iK"/>
+        <CONNECTION INSTANCE="jk_ff_2" PORT="iJ"/>
+        <CONNECTION INSTANCE="jk_ff_2" PORT="iK"/>
+        <CONNECTION INSTANCE="jk_ff_3" PORT="iJ"/>
+        <CONNECTION INSTANCE="jk_ff_3" PORT="iK"/>
+        <CONNECTION INSTANCE="jk_ff_2" PORT="iPRESETn"/>
+        <CONNECTION INSTANCE="jk_ff_3" PORT="iPRESETn"/>
+        <CONNECTION INSTANCE="jk_ff_1" PORT="iPRESETn"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="oQ_0" SIGIS="undef" SIGNAME="jk_ff_0_oQ">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_0" PORT="oQ"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="oQ_1" SIGIS="undef" SIGNAME="jk_ff_1_oQ">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_1" PORT="oQ"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="oQ_3" SIGIS="undef" SIGNAME="jk_ff_3_oQ">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_3" PORT="oQ"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="oQ_2" SIGIS="undef" SIGNAME="jk_ff_2_oQ">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="jk_ff_2" PORT="oQ"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/jk_ff_0" HWVERSION="1.0" INSTANCE="jk_ff_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="jk_ff" VLNV="xilinx.com:module_ref:jk_ff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_jk_ff_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="iCLK" SIGIS="undef" SIGNAME="External_Ports_iCLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iCLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iCLEARn" SIGIS="undef" SIGNAME="External_Ports_iRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iPRESETn" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iJ" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iK" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQ" SIGIS="undef" SIGNAME="jk_ff_0_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jk_ff_1" PORT="iCLK"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="oQ_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQn" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/jk_ff_1" HWVERSION="1.0" INSTANCE="jk_ff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="jk_ff" VLNV="xilinx.com:module_ref:jk_ff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_jk_ff_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="iCLK" SIGIS="undef" SIGNAME="jk_ff_0_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jk_ff_0" PORT="oQ"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iCLEARn" SIGIS="undef" SIGNAME="External_Ports_iRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iPRESETn" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iJ" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iK" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQ" SIGIS="undef" SIGNAME="jk_ff_1_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jk_ff_2" PORT="iCLK"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="oQ_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQn" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/jk_ff_2" HWVERSION="1.0" INSTANCE="jk_ff_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="jk_ff" VLNV="xilinx.com:module_ref:jk_ff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_jk_ff_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="iCLK" SIGIS="undef" SIGNAME="jk_ff_1_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jk_ff_1" PORT="oQ"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iCLEARn" SIGIS="undef" SIGNAME="External_Ports_iRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iPRESETn" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iJ" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iK" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQ" SIGIS="undef" SIGNAME="jk_ff_2_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jk_ff_3" PORT="iCLK"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="oQ_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQn" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/jk_ff_3" HWVERSION="1.0" INSTANCE="jk_ff_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="jk_ff" VLNV="xilinx.com:module_ref:jk_ff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_jk_ff_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="iCLK" SIGIS="undef" SIGNAME="jk_ff_2_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="jk_ff_2" PORT="oQ"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iCLEARn" SIGIS="undef" SIGNAME="External_Ports_iRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iPRESETn" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iJ" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="iK" SIGIS="undef" SIGNAME="External_Ports_iPRESETn">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="iPRESETn"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQ" SIGIS="undef" SIGNAME="jk_ff_3_oQ">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="oQ_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="oQn" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

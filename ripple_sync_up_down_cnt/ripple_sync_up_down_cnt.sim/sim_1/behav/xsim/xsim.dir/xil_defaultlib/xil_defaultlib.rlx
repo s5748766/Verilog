@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/50/Desktop/vLabs/ripple_sync_up_down_cnt/ripple_sync_up_down_cnt.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/50/Desktop/vLabs/ripple_sync_up_down_cnt/ripple_sync_up_down_cnt.srcs/sources_1/new/jk_ff.v,1761132902,verilog,,C:/Users/50/Desktop/vLabs/ripple_sync_up_down_cnt/ripple_sync_up_down_cnt.srcs/sources_1/new/sync_cnt.v,,jk_ff,,,,,,,,
+C:/Users/50/Desktop/vLabs/ripple_sync_up_down_cnt/ripple_sync_up_down_cnt.srcs/sources_1/new/sync_cnt.v,1761207914,verilog,,C:/Users/50/Desktop/vLabs/ripple_sync_up_down_cnt/ripple_sync_up_down_cnt.srcs/sources_1/new/tb_sync_cnt.v,,sync_cnt,,,,,,,,
+C:/Users/50/Desktop/vLabs/ripple_sync_up_down_cnt/ripple_sync_up_down_cnt.srcs/sources_1/new/tb_sync_cnt.v,1761132963,verilog,,,,tb_sync_cnt,,,,,,,,

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_freq_div_sig_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_freq_div_sig" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000000 s"></ZoomStartTime>
+      <ZoomEndTime time="8.510000000001 s"></ZoomEndTime>
+      <Cursor1Time time="0.658049361222 s"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="122"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_freq_div_sig/iCLK" type="logic">
+      <obj_property name="ElementShortName">iCLK</obj_property>
+      <obj_property name="ObjectShortName">iCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_freq_div_sig/iRESETn" type="logic">
+      <obj_property name="ElementShortName">iRESETn</obj_property>
+      <obj_property name="ObjectShortName">iRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_freq_div_sig/oMYCLK" type="logic">
+      <obj_property name="ElementShortName">oMYCLK</obj_property>
+      <obj_property name="ObjectShortName">oMYCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_freq_div_sig/TCLK" type="array">
+      <obj_property name="ElementShortName">TCLK[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TCLK[31:0]</obj_property>
+   </wvobject>
+</wave_config>

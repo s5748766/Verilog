@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../4bit_bin_up_counter.gen/sources_1/ip/clk_wiz_0" \
+"../../../../4bit_bin_up_counter.srcs/sources_1/new/jk_ff.v" \
+"../../../../4bit_bin_up_counter.srcs/sources_1/new/ripple_upcnt.v" \
+"../../../../4bit_bin_up_counter.srcs/sources_1/new/tb_ripple_upcnt.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
